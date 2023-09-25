@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.left {
+    flex: 1;
+    padding: 20px;
+}
+.right {
+    flex: 2;
+    padding: 20px;
+    font-size: 18px;
+}
+img {
+    max-width: 100%;
+    height: 75%;
+}
+.container .let{
+    border-radius: 10px;
+}
+.right .contact li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.right .contact li a{
+    color: #808080;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
